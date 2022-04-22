@@ -1985,7 +1985,7 @@
 		"dbRegSaveTrigger",
 		"dbRefreshCellView",
 		"dbRenameNet",
-		"dbSave",
+		{ "trigger" : "dbSave" , "contents" : "dbSave( ${1:d_cellViewId} )" },
 		"dbSearchCDF",
 		"dbSetAutoSave",
 		"dbUndefineProc",
